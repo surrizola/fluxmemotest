@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link type="text/css" href="css/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+        <script type="text/javascript" src="js/memotest.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#mesa").memotest('imagenes/blanco.png', new Array(
+			'imagenes/arg.png',
+			'imagenes/bol.png',
+			'imagenes/bra.png',
+            /*'imagenes/ecu.png',*/
+            'imagenes/logo.png',
+			'imagenes/chi.png',
+			'imagenes/col.png',
+			'imagenes/par.png',
+			'imagenes/per.png',
+			'imagenes/uru.png',
+			'imagenes/ven.png'
+                ));
+            });
+        </script>
+    </head>
+    <body>
+        <center>
+        
+        <h1> FluxIT al mundo </h1>
+        <img src='./imagenes/logo.png'/>
+        <h4> Econtrá en que país estamos trabajando y relajate escuchando una buena identidad sonora</h4>
+        <div id="mesa"></div>
+        <div class="clear"></div>        
+        <embed name="myMusic" loop="true" hidden="false" src="./ringtone.mp3" autostart="false"></embed>
+
+        </center>
+    </body>
+</html>
